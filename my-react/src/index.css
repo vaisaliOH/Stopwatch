@@ -1,0 +1,56 @@
+body{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: cornflowerblue;
+}
+.stopwatch{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius:50px;
+  margin-top: 20px;
+  border:5px solid black
+}
+.display{
+  font-size: 5rem;
+  font-family: 'monospace';
+  color:black;
+  font-weight:bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.controls button{
+  font-size:1.5rem;
+  font-weight:bold;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+  border: none;
+  color:white;
+  cursor:pointer;
+  width:100px;
+}
+.start-button{
+  background-color: green;
+}
+.start-button:hover{
+  background-color: lightgreen;
+}
+.stop-button{
+  background-color: red;
+}
+.stop-button:hover{
+  background-color: lightcoral;
+}
+.reset-button{
+  background-color: blue;
+}
+.reset-button:hover{
+  background-color: lightblue;
+}
